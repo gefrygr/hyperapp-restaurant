@@ -1,0 +1,37 @@
+#OurStory{
+    padding: 100px 0;
+    
+    .quote{
+        color: $paragraphColor;
+        margin: 0.5rem 0 3rem;
+    }
+
+    strong{
+        color: $black;
+    }
+
+    .reserve-btn{
+        font-family: $displayFont;
+        display: inline-block;
+        border: 1px solid $black;
+        text-align: center;
+        text-decoration: none;
+        color: $black;
+        text-transform: uppercase;
+        padding: 20px 40px;
+        transition: all 0.5s ease-in-out;
+        &:hover{
+            background: $red;
+            color: #fff;
+        }
+    }
+    .video-img{
+        max-width: 400px;
+        height: 550px;
+        background: linear-gradient(135deg, rgba(0,0,0,.2)0,#002d77 100%);
+        background-image: linear-gradient(135deg, rgba(0,0,0,.2) 0, #000 100%), url("https://www.besthealthmag.ca/wp-content/uploads/sites/16/2017/10/healthy-cooking-classes-in-Canada.jpg");
+        background-position: right;
+        background-size: center;
+        margin: 0 auto;
+    }
+}
