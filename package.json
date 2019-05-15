@@ -15,6 +15,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "browser-sync": "^2.18.8",
+    "express": "^4.16.4",
     "gh-pages": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
@@ -36,12 +37,12 @@
     "react-router": "^4.1.1",
     "redux": "^3.6.0",
     "sass-loader": "^6.0.3",
+    "serve-static": "^1.14.1",
     "standard": "^10.0.2",
     "webpack": "^2.5.1",
     "webpack-stream": "^3.2.0"
   },
   "scripts": {
-    "deploy": "gh-pages -d public",
     "bundle": "./node_modules/.bin/webpack",
     "production": "./node_modules/.bin/webpack -p",
     "watch": "gulp",
