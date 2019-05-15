@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Super Cool Framework",
   "main": "index.js",
-  "author": "joe santos garcia",
+  "author": "Gefry Grullon",
   "license": "MIT",
-  "homepage": "http://rocky.codingphase.com/",
+  "homepage": "http://gefrygr.github.io/hyperapp-restaurant",
   "dependencies": {
     "axios": "^0.16.1",
     "babel-core": "^6.24.1",
@@ -15,6 +15,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "browser-sync": "^2.18.8",
+    "gh-pages": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-babel": "^6.1.2",
@@ -25,9 +26,9 @@
     "gulp-shell": "^0.6.3",
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.9",
+    "html-webpack-plugin": "^2.28.0",
     "hyperapp": "^0.12.0",
     "hyperapp-redux-devtools": "^1.0.9",
-    "html-webpack-plugin": "^2.28.0",
     "node-sass": "^4.5.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
@@ -40,6 +41,7 @@
     "webpack-stream": "^3.2.0"
   },
   "scripts": {
+    "deploy": "gh-pages -d public",
     "bundle": "./node_modules/.bin/webpack",
     "production": "./node_modules/.bin/webpack -p",
     "watch": "gulp",
